@@ -1,0 +1,292 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap");
+body {
+  background: #c5e4e7;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 100px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-weight: 700;
+  font-family: "Space Mono", sans-serif;
+}
+
+.section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 920px;
+  width: 100%;
+  height: 622px;
+}
+.section img {
+  height: 54px;
+  width: 87px;
+}
+.section .main {
+  -webkit-box-shadow: 0 32px 43px 0 rgba(79, 166, 175, 0.2);
+          box-shadow: 0 32px 43px 0 rgba(79, 166, 175, 0.2);
+  background: #fff;
+  border-radius: 25px;
+  max-width: 920px;
+  width: 100%;
+  height: 481px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 32px 32px 32px 48px;
+}
+.section .main .cart_1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-width: 379px;
+  height: 388px;
+}
+.section .main .cart_1 form {
+  max-width: 379px;
+  height: 78px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+}
+.section .main .cart_1 form input {
+  text-align: right;
+  padding: 6px 17px 6px 0px;
+  border-radius: 5px;
+  max-width: 379px;
+  height: 48px;
+  background: #f3f9fa;
+  border: none;
+  font-size: 24px;
+  text-align: right;
+  color: #00474b;
+  outline: none;
+}
+.section .main .cart_1 form input:focus {
+  border: 2px solid #26c2ae;
+}
+.section .main .cart_1 form label {
+  font-size: 16px;
+  color: #5e7a7d;
+}
+.section .main .cart_1 form img {
+  position: absolute;
+  left: 19px;
+  top: 46px;
+  width: 11px;
+  height: 17px;
+}
+.section .main .cart_1 .btns {
+  max-width: 379px;
+  height: 152px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.section .main .cart_1 .btns p {
+  font-size: 16px;
+  color: #5e7a7d;
+}
+.section .main .cart_1 .btns div {
+  display: grid;
+  gap: 16px;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  max-width: 379px;
+  height: 112px;
+}
+.section .main .cart_1 .btns div button {
+  border-radius: 5px;
+  font-size: 24px;
+  text-align: center;
+  color: #fff;
+  background: #00474b;
+  cursor: pointer;
+  border: none;
+  height: 48px;
+}
+.section .main .cart_1 .btns div button:nth-child(3) {
+  color: #00474b;
+  background: #26c2ae;
+}
+.section .main .cart_1 .btns div button:hover {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  color: #00474b;
+  background: #9fe8df;
+}
+.section .main .cart_1 .btns div input {
+  border-radius: 5px;
+  font-size: 24px;
+  text-align: right;
+  color: #547878;
+  padding: 6px 14px;
+  background: #f3f9fa;
+  border: none;
+  outline: none;
+}
+.section .main .cart_1 .btns div input:focus {
+  border: 2px solid #26c2ae;
+}
+.section .main .cart_2 {
+  padding: 40px;
+  border-radius: 15px;
+  max-width: 413px;
+  width: 100%;
+  height: 417px;
+  background: #00474b;
+  display: grid;
+  grid-template-rows: 96px 193px;
+}
+.section .main .cart_2 div {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 333px;
+  height: 71px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.section .main .cart_2 div div {
+  max-width: 98px;
+  height: 44px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
+}
+.section .main .cart_2 div div h3 {
+  font-size: 16px;
+  color: #fff;
+}
+.section .main .cart_2 div div p {
+  font-size: 13px;
+  color: #7f9d9f;
+}
+.section .main .cart_2 div h2 {
+  font-size: 48px;
+  letter-spacing: -0.02em;
+  color: #26c2ae;
+}
+.section .main .cart_2 button {
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  max-width: 333px;
+  width: 100%;
+  height: 48px;
+  background: #26c2ae;
+  font-size: 20px;
+  text-align: center;
+  color: #00474b;
+}
+.section .main .cart_2 button:hover {
+  background: #9fe8df;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+@media screen and (max-width: 700px) {
+  body {
+    padding-top: 50px;
+  }
+  .section {
+    height: 884px;
+    width: 375px;
+  }
+  .section .main {
+    padding: 32px 24px 32px 24px;
+    width: 375px;
+    height: 789px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .section .main .cart_1 {
+    height: 436px;
+    width: 311px;
+  }
+  .section .main .cart_1 .btns {
+    width: 311px;
+    height: 216px;
+  }
+  .section .main .cart_1 .btns div {
+    width: 311px;
+    height: 176px;
+  }
+  .section .main .cart_2 {
+    display: grid;
+    grid-template-rows: 68px 80px;
+    width: 327px;
+    height: 257px;
+    padding: 37px 22px 24px 24px;
+  }
+  .section .main .cart_2 div {
+    width: 281px;
+    height: 48px;
+  }
+  .section .main .cart_2 div div {
+    width: 98px;
+    height: 44px;
+  }
+  .section .main .cart_2 div h2 {
+    font-size: 32px;
+  }
+}
